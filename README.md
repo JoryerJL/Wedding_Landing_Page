@@ -41,7 +41,7 @@ Para ejecutar este proyecto en tu máquina local, solo necesitas descargar los a
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone https://github.com/JoryerJL/Wedding_Landing_Page.git
    
 2. Navega a la carpeta del proyecto
 Después de clonar el repositorio, navega a la carpeta del proyecto:
