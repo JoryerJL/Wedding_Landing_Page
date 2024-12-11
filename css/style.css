@@ -6,7 +6,7 @@ body {
     display: flex;
     align-items: center; /* Mover el contenido hacia arriba */
     justify-content: center;
-    height: 70vh; /* Reducir la altura */
+    height: 80vh; /* Reducir la altura */
     background: url('../img/background.jpg') no-repeat bottom center; /* Cambiar la posición del fondo */
     background-size: cover;
     color: white;
