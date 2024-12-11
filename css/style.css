@@ -57,11 +57,18 @@ body {
   font-style: normal;
 }
 
-.titulos {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
+.titulos-card {
+    font-family: "Tangerine", serif;
     font-weight: 700;
     font-style: normal;
+    font-size:3em;
+}
+
+.titulos {
+    font-family: "Tangerine", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
 }
 
 .gallery {
@@ -96,4 +103,11 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 1.5em;
+}
+
+.titulo-schedule {
+    font-family: "Tangerine", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
 }

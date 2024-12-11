@@ -18,7 +18,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=location_on" />
 </head>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+</style>
 <body>
     <header class="hero">
         <div>
@@ -29,19 +39,19 @@
 
     <section id="details" class="details container">
         <div class="detail">
-            <h2 class="titulos">La Ceremonia</h2>
+            <h2 class="titulos-card">La Ceremonia</h2>
             <p class="textos">Fecha: 25 de Diciembre, 2023</p>
             <p class="textos">Hora: 5:00 PM</p>
             <p class="textos">Ubicación: Iglesia de San Pedro</p>
         </div>
         <div class="detail">
-            <h2 class="titulos">La Recepción</h2>
+            <h2 class="titulos-card">La Recepción</h2>
             <p class="textos">Fecha: 25 de Diciembre, 2023</p>
             <p class="textos">Hora: 7:00 PM</p>
             <p class="textos">Ubicación: Salón de Eventos El Paraíso</p>
         </div>
         <div class="detail">
-            <h2 class="titulos">Confirmación</h2>
+            <h2 class="titulos-card">Confirmación</h2>
             <p class="textos">Por favor confirma tu asistencia antes del 1 de Diciembre</p>
             <a href="#" class="btn btn-secondary">Confirmar</a>
         </div>
@@ -87,7 +97,7 @@
     </section>
 
     <section id="gallery" class="gallery container">
-        <h2 class="titulos">Galería de Recuerdos</h2>
+        <h2 class="titulos text-center">Galería de Recuerdos</h2>
         <div class="row">
             <div class="col-md-4">
                 <img src="./img/gal1.jpg" class="img-fluid" alt="Galería 1">
@@ -111,25 +121,33 @@
     </section>
 
     <section id="schedule" class="schedule container">
+        <h2 class="titulo-schedule text-center">Schedule</h2>
         <div class="row">
             <div class="col-md-6">
-                <h2 class="titulos">Horario de Eventos</h2>
                 <ul>
                     <li>
                         <p class="time">4:00 PM - Misa</p>
-                        Iglesia de San Pedro
+                        <span class="material-symbols-outlined">
+                            location_on
+                            </span> Iglesia de San Pedro
                     </li>
                     <li>
                         <p class="time">5:00 PM - Ceremonia</p>
-                        Iglesia de San Pedro
+                        <span class="material-symbols-outlined">
+                            location_on
+                            </span> Iglesia de San Pedro
                     </li>
                     <li>
                         <p class="time">7:00 PM - Recepción</p>
-                        Salón de Eventos El Paraíso
+                        <span class="material-symbols-outlined">
+                            location_on
+                            </span> Salón de Eventos El Paraíso
                     </li>
                     <li>
                         <p class="time">9:00 PM - Concierto Julión Alvarez</p>
-                        Salón de Eventos El Paraíso
+                        <span class="material-symbols-outlined">
+                            location_on
+                            </span> Salón de Eventos El Paraíso
                     </li>
                 </ul>
             </div>
