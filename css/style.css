@@ -2,16 +2,34 @@ body {
     background-color: #f2f0eb;
 }
 .hero {
+    position: relative;
     display: flex;
-    align-items: flex-start; /* Mover el contenido hacia arriba */
+    align-items: center; /* Mover el contenido hacia arriba */
     justify-content: center;
-    height: 90vh; /* Reducir la altura */
+    height: 70vh; /* Reducir la altura */
     background: url('../img/background.jpg') no-repeat bottom center; /* Cambiar la posición del fondo */
     background-size: cover;
     color: white;
     text-align: center;
     padding-top: 20vh; /* Ajustar la posición del texto */
 }
+
+.navfont {
+    font-family: "Tangerine", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.5em;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
 .texto-hero {
     font-family: "Tangerine", serif;
     font-weight: 400;
@@ -99,6 +117,7 @@ body {
 }
 
 .time {
+    display: inline-block;
     font-family: "Oranienbaum", serif;
     font-weight: 400;
     font-style: normal;
@@ -110,4 +129,11 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 5em;
+}
+
+.schedule-text{
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
 }
